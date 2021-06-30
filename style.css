@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+htmli{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: #45badd;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-family: Montserrat, sans-serif;d
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background:url("./robot.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+button {
+      cursor: pointer;
+      outline: none;
+      width: 200px;
+      height: 50px;
+      font-family: Courier, monospace;
+      font-size: 20px;
+      color: white;
+      background: #ff3482;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+ 
+}
+
+button:hover {
+    filter: brightness(95%);
+}
+button:active{
+    transform: scale(0.98)
+}
+button:disabled {
+    cursor: default;
+    filter:brightness(30%);
+}
+@media screen and (max-width: 1000px) {
+    .container {
+        background-position: center center;
+        background-size: cover;
+    }
+}
+    
+button {
+    box-shadow: 5px 5px  30px 20px rgba(0,0,0,0.5);
+}
+
+#jok{
+    width: auto;
+    padding: 20px 30px;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5px;
+    background-color: #ff3482;
+    color:white;
+    border: none;
+    margin-top: 10px;
+}
+
+#joke-text{
+    font-size:20px;
+    font-weight: bolder;
+}
+
+a {
+   text-decoration: none;
+   display: inline-block;
+   padding: 8px 16px;        
+}
+
+a:hover {
+   background-color: #ddd;
+   color: black;       
+}
+
+.next {
+    background-color: #000000;
+    color: white;       
+}
+
+.square {
+      border-radius: 0;   
+}
+
+
